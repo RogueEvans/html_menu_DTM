@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Menú Digital</title>
+    <style>
+        /* Estilos optimizados para móviles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Fondo oscuro elegante */
+            color: #eaeaea;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu-container {
+            width: 100%;
+            max-width: 600px; /* Tamaño ideal para teléfonos */
+            padding: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Espacio entre cada página del menú */
+        }
+
+        /* Contenedor de cada página */
+        .menu-page {
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            border: 1px solid #2a2a2a;
+        }
+
+        /* Hace que la imagen ocupe el 100% de la pantalla de forma responsiva */
+        .menu-page img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .page-indicator {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.85rem;
+            color: #888;
+            background-color: #151515;
+            border-top: 1px solid #2a2a2a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            background-color: #1a1a1a;
+            color: #666;
+            font-size: 0.8rem;
+            border-top: 1px solid #2a2a2a;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+
+        <!-- Página 1 -->
+        <div class="menu-page">
+            <img src="pagina1.png" alt="Menú Página 1">
+            <div class="page-indicator">Página 1 de 6</div>
+        </div>
+
+        <!-- Página 2 -->
+        <div class="menu-page">
+            <img src="pagina2.png" alt="Menú Página 2">
+            <div class="page-indicator">Página 2 de 6</div>
+        </div>
+
+        <!-- Página 3 -->
+        <div class="menu-page">
+            <img src="pagina3.png" alt="Menú Página 3">
+            <div class="page-indicator">Página 3 de 6</div>
+        </div>
+
+        <!-- Página 4 -->
+        <div class="menu-page">
+            <img src="pagina4.png" alt="Menú Página 4">
+            <div class="page-indicator">Página 4 de 6</div>
+        </div>
+
+        <!-- Página 5 -->
+        <div class="menu-page">
+            <img src="pagina5.png" alt="Menú Página 5">
+            <div class="page-indicator">Página 5 de 6</div>
+        </div>
+
+        <!-- Página 6 -->
+        <div class="menu-page">
+            <img src="pagina6.png" alt="Menú Página 6">
+            <div class="page-indicator">Página 6 de 6</div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 • Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
